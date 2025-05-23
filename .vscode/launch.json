@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Chrome index.html",
+            "url": "http://localhost:5500/index.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Chrome Music.html",
+            "url": "http://localhost:5500/Music.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Chrome name.html",
+            "url": "http://localhost:5500/name.html",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

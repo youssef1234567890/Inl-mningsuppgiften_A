@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Projekt A – Musikgrupper</title>
+  <!-- Länkar till egen CSS och Bootstrap för layout och stil -->
+  <link rel="stylesheet" href="../css/index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Toppmeny med projektets namn och utvecklare -->
+  <div class="navbar">
+    Projekt A
+    <div class="subtitle">Utvecklare: Youssef</div>
+  </div>
+
+  <div class="container mt-4">
+    <!-- Sidans huvudrubrik -->
+    <h1 class="text-center mb-4">Musikgrupper</h1>
+
+    <!-- Sökfält för att filtrera musikgrupper -->
+    <div class="mb-3">
+      <input type="text" id="search-input" class="form-control" placeholder="Sök musikgrupp...">
+    </div>
+
+    <!-- Här visas listan med musikgrupper -->
+    <div id="music-groups-container" class="list-group mb-3"></div>
+
+    <!-- Paginering: knappar för att bläddra mellan sidor -->
+    <div class="d-flex justify-content-center align-items-center mb-4">
+      <button id="prev-page-btn" class="btn btn-outline-primary me-2">Föregående</button>
+      <span id="page-info" class="mx-2">Sida 1 av 1</span>
+      <button id="next-page-btn" class="btn btn-outline-primary ms-2">Nästa</button>
+    </div>
+  </div>
+
+  <!-- Navigationsknappar till andra sidor -->
+  <div class="button-container mb-4">
+    <a href="index.html" class="nav-btn">Home page</a>
+    <a href="name.html" class="nav-btn">Namn</a>
+  </div>
+
+  <!-- Länkar till JavaScript som hanterar funktionaliteten -->
+  <script src="../JavaScript/script.js"></script>
+</body>
+</html>
